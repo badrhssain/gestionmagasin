@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap%27');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+
+}
+strong{
+    color: #FDBBB4;
+   
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+}
+
+h1{
+    padding-left: 60px;
+    margin-top: 40px;
+    font-size: 45px;
+    
+    
+}
+h3{
+    padding-left: 60px;
+}
+form{
+    padding-left: 60px;
+    margin-top: 35px;
+}
+#email{
+padding-left: 10px;
+border-radius: 4px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-color: black;
+border: solid 1,2px;
+width: 250px;
+
+}
+#mdp{
+    margin-top: 20px;
+    padding-left: 8px;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: black;
+    border: solid 1,2px;
+    width: 250px;
+    
+}
+#Commencer{
+    text-decoration: none;
+      
+    color: #FDBBB4;
+}
+button{
+font-size: 15px;
+background-color: black;
+border-radius: 4px;
+padding-left: 73px;
+padding-right: 73px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+border-color: black;
+}
+
+#svn{
+    margin: 15px;
+    margin-left: 3px;
+}
+#comm{
+    margin: 15px;
+    margin-left: 3px;
+}
+
+#ho :hover{
+    color: #FDBBB4;
+}
+#img{
+
+    width: 103%;
+    height: 618px;
+}
+/* .Section_top{
+    width: 103%;
+    height: 618px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url("img1.jpg");
+    }
+    20%
+    {
+        background-image: url("img2.jpg");
+    }
+    40%
+    {
+        background-image: url("img3.jpg");
+    }
+    60%
+    {
+        background-image: url("img4.jpg");
+    }
+    80%
+    {
+        background-image: url("img1.jpg");
+    }
+    100%
+    {
+        background-image: url("img2.jpg");
+    }
+} */

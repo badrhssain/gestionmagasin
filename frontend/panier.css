@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;500&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap%27');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+header{
+    position: relative;
+}
+.navbar{
+background-color: #212529 important;
+}
+#logo{
+    height: 70px;
+    width: 70px ;
+}
+#firstul{
+    list-style: none;
+    background-color: #FDBBB4;
+}
+li{
+    padding-left: 100px;
+}
+.li2{
+    padding-left: 300px;
+    padding-right: 250px;
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    height: 20px;
+    width: 80px;
+    display: flex;
+  }
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.wrapper span.num{
+    font-size: 15px;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    border-left: 1px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+  }
+  .bigsection{
+      display: flex;
+      padding-top: 40px;
+  }
+  .firstsc{
+      width: 70%;
+  }
+  .secondsc{
+      padding-left: 50px;
+      width: 30%;
+  }
+  .card-title{
+      display: flex;
+      justify-content: space-between;
+  }
+  .btn{
+      display: flex;
+      justify-content: center;
+      background-color: #FDBBB4;
+      border: #FDBBB4;
+  }
+  .card{
+      background-color: black;
+      color: white;
+  }
+  hr{
+      color: white;
+      border: 1px solid white;
+  }
+  h3{
+    color: #FDBBB4;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+
+  }
+  .btn1{
+  background-color: #FDBBB4;
+  font-family: 'lora',serif;
+  border: #FDBBB4;
+  padding: 10px;
+  }
+  .btn:hover{
+      background-color: #FDBBB4;
+      color: black;
+  }

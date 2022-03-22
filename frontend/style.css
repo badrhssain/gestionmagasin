@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    list-style: none;
+}
+
+header{
+        position: relative;
+        height: 510px;        
+}
+#firstul{
+    list-style: none;
+    background-color: #FDBBB4;
+}
+nav{
+    background-color: black;
+}
+.logo{
+    width: 60px;
+}
+.video {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    }
+#headerDiv{
+    background-color: #FDBBB4;
+}
+li{
+    padding-left: 100px;
+}
+.li2{
+    padding-left: 300px;
+    padding-right: 250px;
+}
+
+#navbar{
+    background-color: rgba(0, 0, 0, 0.459);
+    justify-content:normal
+}
+.navbar{
+    padding-top: 0  ;
+    padding-bottom: 0;
+    justify-content: normal;
+}
+form ul a.login{
+    padding: 10px;
+}
+.text{
+    padding-top: 100px;
+    padding-left: 400px;
+    color: white;
+}
+header h1{
+    font-family: 'Lora', serif;
+    font-size: 200px;
+    margin-bottom: -40px;
+}
+strong{
+    color: #FDBBB4;
+    font-family: 'Lora', serif;
+}h2{
+    padding-left: 130px;
+    font-size: 30px;
+    font-family: 'Italianno', cursive;
+}
+.meilleurVentes{
+    background-color:#FDBBB4;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.produitsTop{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#leftmain{
+    background-color: blue;
+}
+#rightmain{
+    background-color: black;
+}
+.row>*{
+    padding-left: 0;
+}
+.card{
+    background-color: black;
+}
+#pr1{
+    width: 200px;
+    padding-left: 80px;
+}
+#pr2{
+    padding-left: 80px;
+    width: 188px;
+}
+#pr3{
+    padding-left: 80px;
+    width: 200px;
+}
+form div div #pr4{
+    padding-left: 80px !important;
+    width: 200px !important;
+    height: 105px !important;
+}
+#pr5{
+    padding-left: 80px;
+    width: 200px;
+}
+#pr6{
+    padding-left: 80px;
+    width: 200px;
+}
+#pr7{
+    padding-left: 80px;
+    width: 200px;
+}
+#pr8{
+    padding-left: 80px;
+    width: 200px;
+}
+#pr9{
+    padding-left: 80px;
+    width: 200px;
+}
+h5,h6{
+    color: white;
+    display: flex;
+    justify-content: center;
+}.card{
+    border-radius: 20px;
+}.btn{
+    display: flex;
+    justify-content: center;
+}#text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}#btnx{
+    padding: 5px;
+    width: 200px;
+}#btnx{
+    border-radius: 10px;
+    background-color: #FDBBB4;
+    margin-left: 250px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+#rightmain{
+    padding-top: 150px;
+}.container{
+    padding-left: 70px;
+    margin-bottom: 40px;
+}.firstsc{
+    background-image: url("images/firstsc.png");
+    background-size: cover;
+    height: 95vh;
+}#sccontainer{
+    padding-top: 30px   ;
+}
+footer{
+    background-color: black;
+    height:150px;
+    width:100%;
+    position: absolute;
+
+}
+#divFooter{
+    height: 150px;
+    position: relative;
+}
+#logoFooter{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+
+}
+#copyriight{
+    position: absolute;
+    bottom: 2px;
+}
+#divFooterRight{
+    position: relative;
+    height: 150px;
+}
+#textFooter{
+    color: white;
+    letter-spacing: 0.09em;
+    position: absolute;
+    top: 30px;
+    margin-bottom: 10px;
+}
+#textPFooter{
+    color: rgb(104, 100, 100);
+    position: absolute;
+    font-style: normal;
+    letter-spacing: 0.09em;
+    font-size: 13px;
+    top: 50px;
+    margin-top: 10px;
+}
+#iconInstagram{
+    color: white;
+    position: absolute; 
+    bottom: 10px;
+
+}
+#iconFacebook{
+    color: white;
+    position: absolute; 
+    bottom: 10px;
+    left: 25px;
+}
+#iconYouTube{
+    color: white;
+}
+
+/* respostive */
+
+@media screen and (max-width: 992px){
+    #headerDiv{
+        height: 20px;
+        width: 100%;
+    }
+    li,.li2,.li3{
+        padding: 1px 90px;
+        font-size:15px;
+    }
+    .logo{
+        width: 50px;
+    }
+    header h1{
+        font-size: 100px;
+        margin-bottom: -14px;
+    }
+    h2{
+        padding-left: 25px;
+        font-size: 25px;
+    }
+    .container{
+        padding-left: 40px;
+    }
+    .firstsc{
+        height: 105vh;
+    }
+}
+a .addToCard{
+    height: 50px;
+    width: 250px;
+}
+ span .welcome{
+    list-style: none;
+    text-decoration: none;
+    FONT-SIZE: 25px;
+    color: aliceblue;
+    margin: 0px 60px;
+
+}
